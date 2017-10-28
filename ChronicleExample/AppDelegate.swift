@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         let currentAppVersion = Chronicle().installedVersionNumber(bundle: Bundle.main)
-        print("Current App Version: \(String(describing: currentAppVersion))")
+        print("Current App Version: \(String(describing: currentAppVersion?.version))")
         
         // Chronicle version checking
         let localOrRemoteURL: URL = Bundle.main.bundleURL.appendingPathComponent("JSON/all_fields.json")
