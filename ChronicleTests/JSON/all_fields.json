@@ -1,0 +1,24 @@
+{
+    "ios": {
+        "minimum_version": {
+            "version": "1.10.9",
+            "display_msg": "Sorry! You need to upgrade to access to new features.",
+            "store_link": "https://google.com/product_link",
+            "notification_type": "ALWAYS"
+        },
+        "recommended_version": {
+            "version": "1.22.1",
+            "display_msg": "Upgrade to get some neat new features!",
+            "store_link": "https://google.com/product_link2",
+            "notification_type": "ONCE"
+        }
+    },
+    "android": {
+        "minimum_version": {
+            "version": "1.11.3",
+            "display_msg": "Sorry! You need to upgrade to access to new features on Android.",
+            "store_link": "https://google.com/product_link",
+            "notification_type": "ALWAYS"
+        }
+    }
+}

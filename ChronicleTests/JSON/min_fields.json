@@ -1,0 +1,9 @@
+{
+    "ios": {
+        "minimum_version": {
+            "version": "1.10.9",
+            "display_msg": "You should really upgrade. This message will only be displayed once.",
+            "store_link": "https://google.com/product_link",
+        }
+    }
+}

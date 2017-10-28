@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCDE5F291F9796DD004765D2 /* Chronicle.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDE5F271F9796DD004765D2 /* Chronicle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCDE5F301F9796EC004765D2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FCDE5F2F1F9796EC004765D2 /* README.md */; };
+		FCDE5F351F979855004765D2 /* Chronicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE5F341F979855004765D2 /* Chronicle.swift */; };
+		FCDE5F371F9798A7004765D2 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE5F361F9798A7004765D2 /* Version.swift */; };
+		FCDE5F391F9798F0004765D2 /* VersionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE5F381F9798F0004765D2 /* VersionFactory.swift */; };
+		FCDE5F8D1F9A478C004765D2 /* ChronicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE5F8C1F9A478C004765D2 /* ChronicleTests.swift */; };
+		FCDE5F8F1F9A478C004765D2 /* Chronicle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDE5F241F9796DD004765D2 /* Chronicle.framework */; };
+		FCDE5F961F9A4831004765D2 /* VersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE5F951F9A4831004765D2 /* VersionTests.swift */; };
+		FCDE5F981F9A52C2004765D2 /* VersionFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDE5F971F9A52C2004765D2 /* VersionFactoryTests.swift */; };
+		FCDE5F9A1F9A5418004765D2 /* JSON in Resources */ = {isa = PBXBuildFile; fileRef = FCDE5F991F9A5418004765D2 /* JSON */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCDE5F901F9A478C004765D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCDE5F1B1F9796DC004765D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCDE5F231F9796DD004765D2;
+			remoteInfo = Chronicle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCDE5F241F9796DD004765D2 /* Chronicle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Chronicle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDE5F271F9796DD004765D2 /* Chronicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chronicle.h; sourceTree = "<group>"; };
+		FCDE5F281F9796DD004765D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDE5F2F1F9796EC004765D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FCDE5F341F979855004765D2 /* Chronicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chronicle.swift; sourceTree = "<group>"; };
+		FCDE5F361F9798A7004765D2 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		FCDE5F381F9798F0004765D2 /* VersionFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionFactory.swift; sourceTree = "<group>"; };
+		FCDE5F8A1F9A478C004765D2 /* ChronicleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChronicleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDE5F8C1F9A478C004765D2 /* ChronicleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronicleTests.swift; sourceTree = "<group>"; };
+		FCDE5F8E1F9A478C004765D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDE5F951F9A4831004765D2 /* VersionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionTests.swift; sourceTree = "<group>"; };
+		FCDE5F971F9A52C2004765D2 /* VersionFactoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionFactoryTests.swift; sourceTree = "<group>"; };
+		FCDE5F991F9A5418004765D2 /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JSON; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCDE5F201F9796DD004765D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDE5F871F9A478C004765D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDE5F8F1F9A478C004765D2 /* Chronicle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCDE5F1A1F9796DC004765D2 = {
+			isa = PBXGroup;
+			children = (
+				FCDE5F2F1F9796EC004765D2 /* README.md */,
+				FCDE5F261F9796DD004765D2 /* Chronicle */,
+				FCDE5F8B1F9A478C004765D2 /* ChronicleTests */,
+				FCDE5F251F9796DD004765D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCDE5F251F9796DD004765D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE5F241F9796DD004765D2 /* Chronicle.framework */,
+				FCDE5F8A1F9A478C004765D2 /* ChronicleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCDE5F261F9796DD004765D2 /* Chronicle */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE5F271F9796DD004765D2 /* Chronicle.h */,
+				FCDE5F341F979855004765D2 /* Chronicle.swift */,
+				FCDE5F381F9798F0004765D2 /* VersionFactory.swift */,
+				FCDE5F361F9798A7004765D2 /* Version.swift */,
+				FCDE5F281F9796DD004765D2 /* Info.plist */,
+			);
+			path = Chronicle;
+			sourceTree = "<group>";
+		};
+		FCDE5F8B1F9A478C004765D2 /* ChronicleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE5F8C1F9A478C004765D2 /* ChronicleTests.swift */,
+				FCDE5F971F9A52C2004765D2 /* VersionFactoryTests.swift */,
+				FCDE5F951F9A4831004765D2 /* VersionTests.swift */,
+				FCDE5F8E1F9A478C004765D2 /* Info.plist */,
+				FCDE5F991F9A5418004765D2 /* JSON */,
+			);
+			path = ChronicleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FCDE5F211F9796DD004765D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDE5F291F9796DD004765D2 /* Chronicle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FCDE5F231F9796DD004765D2 /* Chronicle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDE5F2C1F9796DD004765D2 /* Build configuration list for PBXNativeTarget "Chronicle" */;
+			buildPhases = (
+				FCDE5F1F1F9796DD004765D2 /* Sources */,
+				FCDE5F201F9796DD004765D2 /* Frameworks */,
+				FCDE5F211F9796DD004765D2 /* Headers */,
+				FCDE5F221F9796DD004765D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chronicle;
+			productName = Chronicle;
+			productReference = FCDE5F241F9796DD004765D2 /* Chronicle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCDE5F891F9A478C004765D2 /* ChronicleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDE5F921F9A478C004765D2 /* Build configuration list for PBXNativeTarget "ChronicleTests" */;
+			buildPhases = (
+				FCDE5F861F9A478C004765D2 /* Sources */,
+				FCDE5F871F9A478C004765D2 /* Frameworks */,
+				FCDE5F881F9A478C004765D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCDE5F911F9A478C004765D2 /* PBXTargetDependency */,
+			);
+			name = ChronicleTests;
+			productName = ChronicleTests;
+			productReference = FCDE5F8A1F9A478C004765D2 /* ChronicleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCDE5F1B1F9796DC004765D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jonathan Cardasis";
+				TargetAttributes = {
+					FCDE5F231F9796DD004765D2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					FCDE5F891F9A478C004765D2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCDE5F1E1F9796DC004765D2 /* Build configuration list for PBXProject "Chronicle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCDE5F1A1F9796DC004765D2;
+			productRefGroup = FCDE5F251F9796DD004765D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCDE5F231F9796DD004765D2 /* Chronicle */,
+				FCDE5F891F9A478C004765D2 /* ChronicleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCDE5F221F9796DD004765D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDE5F301F9796EC004765D2 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDE5F881F9A478C004765D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDE5F9A1F9A5418004765D2 /* JSON in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCDE5F1F1F9796DD004765D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDE5F391F9798F0004765D2 /* VersionFactory.swift in Sources */,
+				FCDE5F371F9798A7004765D2 /* Version.swift in Sources */,
+				FCDE5F351F979855004765D2 /* Chronicle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDE5F861F9A478C004765D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDE5F961F9A4831004765D2 /* VersionTests.swift in Sources */,
+				FCDE5F8D1F9A478C004765D2 /* ChronicleTests.swift in Sources */,
+				FCDE5F981F9A52C2004765D2 /* VersionFactoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCDE5F911F9A478C004765D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCDE5F231F9796DD004765D2 /* Chronicle */;
+			targetProxy = FCDE5F901F9A478C004765D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCDE5F2A1F9796DD004765D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCDE5F2B1F9796DD004765D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCDE5F2D1F9796DD004765D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Chronicle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathancardasis.Chronicle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCDE5F2E1F9796DD004765D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Chronicle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathancardasis.Chronicle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FCDE5F931F9A478C004765D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChronicleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathancardasis.ChronicleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCDE5F941F9A478C004765D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChronicleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathancardasis.ChronicleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCDE5F1E1F9796DC004765D2 /* Build configuration list for PBXProject "Chronicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDE5F2A1F9796DD004765D2 /* Debug */,
+				FCDE5F2B1F9796DD004765D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDE5F2C1F9796DD004765D2 /* Build configuration list for PBXNativeTarget "Chronicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDE5F2D1F9796DD004765D2 /* Debug */,
+				FCDE5F2E1F9796DD004765D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCDE5F921F9A478C004765D2 /* Build configuration list for PBXNativeTarget "ChronicleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDE5F931F9A478C004765D2 /* Debug */,
+				FCDE5F941F9A478C004765D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCDE5F1B1F9796DC004765D2 /* Project object */;
+}
