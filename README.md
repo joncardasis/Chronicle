@@ -16,7 +16,7 @@
 2. In the `application:didFinishLaunchingWithOptions:` (or likewise) method of your app's AppDelegate check for version compliance and handle accordingly.
 
 ## Example
-`Chronicle` provides a 3 block callback which are all optional callbacks.
+`Chronicle` provides 3 block callbacks which are all optional callbacks.
 > (1) Minimum version found, (2) recommended version found, (3) error occurred.
 
 **Example**
@@ -24,7 +24,7 @@
 Chronicle().checkForUpdates(from: url,
       requiredVersion: { (version, isMinimumVersionSatisfied, notificationType) in
         if notificationType == .once {
-          if !isMinimumVersionSatisfied { //notificationType guaranteed to be `.always`
+          if !isMinimumVersionSatisfied {
             print("""
                   Version \(version.version) is available.
                   You are required to download this version to continue using this application.
@@ -36,6 +36,7 @@ Chronicle().checkForUpdates(from: url,
             if !isMinimumVersionSatisfied {
               print("""
                     Version \(version.version) is available!
+                    Attached message: \(version.message)
                     You should go and download it!
                     """)
             }
@@ -46,6 +47,13 @@ Chronicle().checkForUpdates(from: url,
 ```
 
 Check out the *ChronicleExample* build target for more.
+
+## Why Chronicle?
+Obtaining current version info from the App Store directly is the *best* way to ensure your users are receiving notifications for app versions which actually exist.
+
+However, this project serves as a **force-upgrade** module for you to modify the required versions at any time via a simple json file.
+
+For example, this is useful if an API breaking change was implemented and users who run versions less than 2.0 would be hitting incorrect endpoints.
 
 
 ## JSON Payload Format
